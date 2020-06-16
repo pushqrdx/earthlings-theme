@@ -1,0 +1,36 @@
+{
+	"name": "earthlings-official",
+	"publisher": "pushqrdx",
+	"displayName": "Earthlings Theme",
+	"description": "A dark+ inspired theme with an earthly vibe",
+	"version": "0.0.3",
+	"keywords": ["dark+", "theme", "color-theme", "dark"],
+	"icon": "static/icon.png",
+	"qna": false,
+	"galleryBanner": {
+		"color": "#fafafa",
+		"theme": "light"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pushqrdx/earthlings-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/pushqrdx/earthlings-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Earthlings Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/earthlings-dark-theme.json"
+			}
+		]
+	}
+}
